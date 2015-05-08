@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/scale_bmi"
+    tools:context="com.pallav.example.testingsam.MainActivity"
+    tools:ignore="MergeRootFrame" >
+        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Health Manager"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Age Calculator" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="BMI Calculator" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="About" />
+    </LinearLayout>
+
+</LinearLayout>
